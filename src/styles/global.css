@@ -1,0 +1,32 @@
+/* fonts */
+@font-face {
+  font-family: "MouseMemoirs";
+  src: url("/fonts/MouseMemoirs-Regular.ttf") format("TrueType");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* global styles */
+html {
+  background-color: #f1f5f9;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80ch;
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 1rem 0;
+  font-size: 2.5rem;
+  font-family: "MouseMemoirs", sans-serif;
+}
